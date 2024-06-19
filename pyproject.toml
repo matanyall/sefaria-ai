@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sefaria-ai"
+version = "0.1.0"
+description = ""
+authors = ["Matanya Loewenthal <matanya@loewenthal.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.35.0"
+watchdog = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
